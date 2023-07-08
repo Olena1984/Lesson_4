@@ -1,0 +1,340 @@
+/*font-family: 'Lato', sans-serif;*/
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    height: 1480px;
+    background: #FFF;
+}   
+header {
+    width: 1440px;
+    height: 500px;
+    background: #ED4C5C;  
+    
+}
+.text {
+   display: block;
+    width: 445px;
+    height: 195px;  
+    margin-top: 122px;
+    margin-left: 163px;
+    margin-bottom: 40px;
+    position: absolute;
+}
+.title {
+    width: 100%;
+    height: 107px;
+
+   
+    color: #FFF;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+
+}
+.title1 {
+    width: 100%;
+    height: 64px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+.link {
+    width: auto;
+    height: 32px;
+   
+    margin-left: 163px;
+    margin-top: 375px;
+    position: absolute;
+}
+a {
+    text-decoration: none;
+}
+.logo1 {
+    width: 32px;
+    height: 32px;  
+    margin-right: 23px;
+}
+.logo2 {
+    width: 32px;
+    height: 32px; 
+    margin-right: 23px;
+}
+
+.logo3 {
+    width: 24px;
+    height: 24px;
+}
+
+
+.slider {
+    width: 533px;
+    height: 311px;
+    margin-top: 94px;
+    margin-right: 216px;
+    margin-bottom: 95px;
+    margin-left: 691px;
+}
+section {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 45px;
+    position: relative;
+}
+.left_section {
+    width: 445px;
+    height: 160px;
+    margin-right: 114px;
+
+    position: absolute;
+    left: 176px;
+    bottom: 223px;
+    
+}
+.contact {
+    width: 445px;
+    height: 107px;
+
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text1 {
+    width: 434px;
+    height: 64px;
+
+    color: #000;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-right: 11px;
+}
+
+.right_section {
+    width: 540px;
+    height: 305px;
+    display: inline-block;
+
+    position: absolute;
+    top: 117px;
+    right: 165px;
+}
+.first {
+    width: 255px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+    margin-right: 30px;
+    margin-bottom: 24px;
+}
+.last {
+    width: 255px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+    float: right;
+}
+.phone {
+    width: 540px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+    margin-bottom: 24px;
+}
+
+select {
+    width: 540px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+    margin-bottom: 27px;
+
+    color: rgba(19, 39, 67, 0.50);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 21px;
+    padding-left: 31px;
+    padding-bottom: 20px;
+}
+::placeholder {
+    color: rgba(19, 39, 67, 0.50);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 21px;
+    padding-left: 31px;
+    padding-bottom: 20px;
+}
+.submit {
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1.5px solid #ED4C5C;
+    background: #ED4C5C;
+
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+footer {
+    width: 100%;
+    height: 435px;
+    background: #FAFAFA;
+    position: relative;
+}
+.wrap_1 {
+    width: 259px;
+    height: 264px;
+    position: absolute;
+    left: 161px;
+    bottom: 86px;
+    
+}   
+.address {
+    width: 65px;
+    height: 22px;
+    margin-bottom: 33px;
+
+    color: #101010;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.list {
+    width: 254px;
+    height: 54px;
+
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    list-style: none;
+    margin-bottom: 141px;
+}
+.copyright {
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.wrap_2 {
+    width: 254px;
+    height: 164px;
+    position: absolute;
+    left: 450px;
+    bottom: 186px;
+
+}
+.service {
+    width: 67px;
+    height: 22px;
+    margin-bottom: 28px;
+    
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.list_2 {
+    width: 254px;
+    height: 114px; 
+    
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    list-style: none;
+}
+.wrap_3 {
+    width: 122px;
+    height: 128px;
+    position: absolute;
+    top: 85px;
+    right: 584px;
+}
+
+.get_in {
+    width: 101px;
+    height: 22px;
+    margin-bottom: 33px;
+    margin-right: 21px;
+    
+    color: #101010;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+.info li {
+    list-style: none;
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 11px;
+}
+.wrap_4 {
+    width: 96px;
+    height: 22px;
+    
+    position: absolute;
+    top: 85px;
+    right: 322px;
+
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+.rectangle {
+    position: absolute;
+    top: 140px;
+    right: 196px;
+}
